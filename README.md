@@ -30,6 +30,14 @@ Each site has its own `styles.css` file located in a folder named after the site
 
 </details>
 
+## CSS Injector
+
+To use these custom styles, you need to install a **CSS injector** in Zen Browser.  
+
+I personally recommend **[Stylebot](https://addons.mozilla.org/hu/firefox/addon/stylebot-web/)**.  
+
+After installing, you can manually add the CSS files for each website.
+
 ## Contribution
 
-Feel free to send pull requests to fix bugs and add support for other sites. :)
+Feel free to send pull requests to fix bugs and add support for other sites. 🙂
