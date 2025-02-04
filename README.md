@@ -38,6 +38,14 @@ I personally recommend **[Stylebot](https://addons.mozilla.org/hu/firefox/addon/
 
 After installing, you can manually add the CSS files for each website.
 
+## Upcoming Features 🚀
+
+Here are some upcoming additions to this project:
+
+- 📖 **Tutorial**: Step-by-step guide on making Zen Browser transparent.
+- 🌐 **More Site Support**: Expanding the list of supported websites.
+- 🛠 **Fixes & Improvements**: Bug fixes and refinements for existing styles.
+
 ## Contribution
 
 Feel free to send pull requests to fix bugs and add support for other sites. 🙂
