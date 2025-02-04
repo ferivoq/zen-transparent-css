@@ -1,0 +1,152 @@
+/* ==========================
+   General Styles
+   ========================== */
+   html, body {
+    background-color: transparent;
+    color: #fff;
+}
+
+a {
+    color: #e2e2e2;
+}
+
+/* ==========================
+   Navbar Styles
+   ========================== */
+nav.navbar {
+    border: none;
+    background-color: transparent;
+}
+
+a.navbar-brand,
+ul li a {
+    color: #fff;
+    background-color: transparent;
+}
+
+/* ==========================
+   Button Styles
+   ========================== */
+button.btn.dropdown-toggle.btn-default {
+    background-color: transparent;
+    color: #fff;
+}
+
+/* ==========================
+   Form & Input Styles
+   ========================== */
+input.form-control.search-bar {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* ==========================
+   Table Styles
+   ========================== */
+table {
+    background-color: transparent;
+}
+
+tbody tr td,
+th {
+    background-color: transparent;
+    color: #fff;
+}
+
+.table-bordered {
+  border: none;
+}
+
+.table-bordered th {
+    border: none !important;
+}
+
+.table-bordered td {
+  border-left: none;
+  border-right: none;
+}
+
+/* Header Styles for Tables */
+th.hdr-category,
+th.hdr-name,
+th.hdr-link,
+th.hdr-comments,
+th.hdr-size,
+th.hdr-date,
+th.hdr-seeders,
+th.hdr-leechers,
+th.hdr-downloads {
+    color: #fff;
+}
+
+/* Table Links */
+tr td a, tr th a {
+    color: #fff;
+}
+
+/* Centered Table Data */
+td.text-center {
+    color: #fff;
+}
+
+/* ==========================
+   Comment Styles
+   ========================== */
+a.comments {
+    background-color: transparent;
+}
+
+/* ==========================
+   Status Colors
+   ========================== */
+.success, 
+.danger, 
+.default {
+    background-color: transparent;
+}
+
+/* ==========================
+   Footer Styles
+   ========================== */
+footer p {
+    color: #fff;
+}
+
+/* ==========================
+   Pagination Styles
+   ========================== */
+.pagination {
+    background-color: transparent;
+}
+
+/* ==========================
+   Dropdown Menu Styles
+   ========================== */
+.dropdown-menu {
+    background-color: rgba(128, 128, 128, 0.5);
+    border: none;
+}
+
+/* ==========================
+   Panel Styles
+   ========================== */
+.panel {
+    background-color: transparent;
+}
+
+div.panel-footer.clearfix,
+div.panel-heading {
+    background-color: transparent;
+}
+
+h3.panel-title {
+    color: #fff;
+}
+
+/* ==========================
+   Miscellaneous Styles
+   ========================== */
+h4 strong a {
+    color: gray;
+}

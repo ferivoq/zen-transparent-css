@@ -1,0 +1,1 @@
+You have to use the "nCore.Light" theme.

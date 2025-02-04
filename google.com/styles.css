@@ -1,0 +1,9 @@
+html, body, div, section, article, header, footer, main, aside, nav, span, form, input, button, table, tbody, tr, td {
+    background: transparent !important;
+}
+
+#searchform, #cnt, .xrOgrb {
+    background: rgba(0, 0, 0, 0.3) !important;
+    backdrop-filter: blur(150px) !important;
+    -webkit-backdrop-filter: blur(150px) !important; 
+}

@@ -1,0 +1,22 @@
+html[dark] {
+    background-color: transparent !important;
+}
+
+html[dark],
+[dark] {
+    --yt-spec-base-background: transparent !important;
+    --yt-spec-raised-background: transparent !important;
+    --yt-spec-menu-background: transparent !important;
+}
+
+a.yt-simple-endpoint.style-scope.yt-formatted-string {
+    color: #e1e1e1;
+}
+
+span.inline-metadata-item.style-scope.ytd-video-meta-block {
+    color: #e1e1e1;
+}
+
+div.style-scope.ytd-masthead {
+    background-color: transparent !important;
+}

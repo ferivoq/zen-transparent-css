@@ -1,0 +1,439 @@
+/* General Styles */
+html, body {
+    background-color: transparent;
+    color: white;
+}
+
+#footer,
+#footer_center,
+#fej_fejlec,
+#menu_bg {
+    background-color: transparent;
+    color: white;
+}
+
+/* Login Styles */
+#login {
+    background: none !important;
+    padding: 0 !important; 
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: white;
+}
+
+#login_all {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center;
+    color: white;
+}
+
+/* Centering Content */
+#tartalom {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 100vh !important;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+}
+
+/* Buttons */
+.submit_btn,
+#menu_bg {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+/* News and Content Blocks */
+div.news_extra {
+    background-color: transparent;
+    color: white; 
+    border: solid #39bb8f 1px;
+    box-shadow: none;
+}
+
+div.news_right_top {
+    background-color: #39bb8f;
+    color: white;
+}
+
+.news_block_right {
+    background-color: transparent;
+    color: white;
+}
+
+/* Fobox Styling */
+#main_tartalom,
+.fobox_all,
+.fobox_fej_t,
+.fobox_fej,
+.fobox_fej_b,
+.fobox_tartalom_t,
+.fobox_tartalom,
+.fobox_lab {
+    background-color: transparent !important;
+    color: white;
+}
+
+.fobox_all {
+    border-radius: 10px;
+}
+
+/* Tables and Torrent List */
+.lista_all,
+.lista_fej_t,
+.lista_fej,
+.lista_fej_b,
+.box_alcimek_all,
+.box_alap,
+.alcim,
+.hnr_torrents,
+.box_torrent_all,
+.hnr_all,
+.hnr_all2 {
+    background-color: transparent;
+    color: white;
+}
+
+/* Text and Link Colors */
+a.menu_link,
+div.fobox_fej,
+#add_news_close,
+div span a,
+span.comment.add_news_h,
+#footer_center,
+.hnr_tname a,
+.hnr_start,
+.hnr_lastactive,
+.hnr_seed,
+.hnr_up,
+.hnr_down,
+.hnr_timespent,
+.hnr_ratio {
+    color: white;
+}
+
+a.bb-url {
+    color: gainsboro;
+}
+
+div.fobox_tartalom {
+    color: white;
+}
+
+td div a {
+    color: white;
+}
+
+/* Clear Fix */
+div[style="clear:both;"] {
+    background-color: transparent;
+}
+
+div a strong {
+  color: white;
+}
+
+tr td a {
+  color: white;
+}
+
+div.banner {
+  display: none;
+}
+
+div.box_nagy2 {
+  background-color: transparent;
+}
+
+div.box_nagy {
+  background-color: transparent;
+}
+
+.box_nagy2:hover, .box_nagy:hover {
+    background: #39bb8f !important;
+}
+
+div a nobr {
+  color: white;
+}
+
+a.infolink {
+  color: white;
+}
+
+div.box_feltoltve2 {
+  color: white;
+}
+
+div.box_meret2 {
+  color: white;
+}
+
+div.box_d2 {
+  color: white;
+}
+
+a.torrent {
+  color: white;
+}
+
+div div span {
+  color: gainsboro;
+}
+
+.fobox_fej_alone {
+  background-color: transparent;
+  color: white;
+}
+
+.fobox_tartalom_alone {
+  background-color: transparent;
+}
+
+div div a {
+  color: white;
+}
+
+.box_keresek_all {
+  background-color: transparent;
+}
+
+div.box_kerve_keres {
+  color: white;
+}
+
+div.box_pont_keres {
+  color: white;
+}
+
+div.box_teljesitve_keres {
+  color: white;
+}
+
+div.box_ideje_keres {
+  color: white;
+}
+
+#fancybox-outer {
+  background-color: rgba(128, 128, 128, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+#fancybox-content {
+  border: 5px solid rgba(128, 128, 128, 0.2);
+}
+
+.torrent_lenyilo_tartalom {
+  background-color: transparent;
+}
+
+.torrent_kep_ico {
+  background-color: transparent;
+}
+
+.torrent_leiras {
+  background-color: transparent;
+}
+
+th {
+  background-color: transparent;
+}
+
+.listrow_odd {
+  background: rgba(128, 128, 128, 0.1);
+}
+
+.torrent_lenyilo_lehetoseg {
+  background: rgba(128, 128, 128, 0.2);
+}
+
+.bb-quote {
+  background: rgba(128, 128, 128, 0.3);
+}
+
+div.torrent_reszletek_cim {
+  background-color: transparent;
+  color: white;
+}
+
+div.torrent_col1 {
+  background-color: transparent;
+}
+
+div.torrent_col2 {
+  background-color: transparent;
+}
+
+.download {
+  background: #39bb8f !important;
+  border: solid 1px #2ba279;
+}
+
+div.commentbox_fej {
+  background-color: transparent;
+  color: white;
+}
+
+div.commentbox_tartalom {
+  background-color: transparent;
+}
+
+textarea.textarea_fancy {
+  background: rgba(128, 128, 128, 0.5);
+  color: white;
+}
+
+.box_nagy2_forum_left {
+  background: transparent;
+}
+
+.box_nagy2_forum_right {
+  background: transparent;
+}
+
+.box_forum_all {
+  background: transparent;
+}
+
+.box_forum_tema_txt_also::before {
+  background: transparent;
+}
+
+.box_forum_tema_txt_also {
+  color: white;
+}
+
+.forum_stat {
+  color: white;
+}
+
+.userbox_all_mini {
+  background: transparent;
+}
+
+.profile_top_l, .profile_top_c, .profile_top_r {
+  background: transparent;
+}
+
+div.baratok_info {
+  color: white;
+}
+
+div.profil_jobb_elso2 {
+  color: white;
+}
+
+div.profil_jobb_masodik2 {
+  color: gainsboro !important
+}
+
+div.profil_jobb_elso {
+  color: white;
+}
+
+div.profil_jobb_masodik {
+  color: gainsboro !important
+}
+
+div.baratok_alert {
+  color: white;
+}
+
+.baratok_block {
+  background: transparent;
+}
+
+.lista_mini_all {
+  background: transparent;
+}
+
+div.lista_mini_fej {
+  border-radius: 8px 8px 0px 0px;
+  background: rgba(128, 128, 128, 0.4);
+  color: white;
+}
+
+.box_alcimek_all_mini {
+  background: rgba(128, 128, 128, 0.4);
+}
+
+.box_nagy_mini {
+  background: transparent;
+  border-left: 1px solid #ccd0dd;
+  border-right: 1px solid #ccd0dd;
+}
+
+div.box_profil_feltoltott2 {
+  color: white;
+}
+
+div.box_profil_felseb2 {
+  color: white;
+}
+
+div.box_profil_letoltott2 {
+  color: white;
+}
+
+div.box_profil_leseb2 {
+  color: white;
+}
+
+div.box_profil_arany2 {
+  color: white;
+}
+
+.lista_mini_all {
+  border-bottom: 01px solid #ccd0dd;
+}
+
+div ul li {
+  color: white;
+}
+
+td.user_focim {
+  color: white;
+}
+
+td.profil_doboz {
+  color: white;
+}
+
+div.set_style {
+  color: white;
+}
+
+tbody tr td {
+  color: white;
+}
+
+#profil_right3 {
+  background: transparent;
+}
+
+div div center {
+  color: white;
+}
+
+div.box_pm_right {
+  background: rgba(128, 128, 128, 0.4);
+}
+
+div.pm_also {
+  background: rgba(128, 128, 128, 0.4);
+}
+
+td.pop_content {
+  background: rgba(128, 128, 128, 0.88);
+}
